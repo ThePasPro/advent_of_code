@@ -1,7 +1,5 @@
 # https://adventofcode.com/2023/day/2
 
-import re
-
 ids_of_succesful_games = []
 for game in open('day_02_input.txt', 'r'):
     cleaned_games = game.split(':')
