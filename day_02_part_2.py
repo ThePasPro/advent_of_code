@@ -1,7 +1,5 @@
 # https://adventofcode.com/2023/day/2
 
-import re
-
 sum_of_power_of_all_games = []
 for game in open('day_02_input.txt', 'r'):
     game_id = game.strip().split(': ')[0][-1]
